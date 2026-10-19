@@ -26,9 +26,16 @@ jobs:
       - name: Install browser
         run: npx playwright install --with-deps chromium
       - name: Browser tests against production build
-        run: npm run test:browser
+        run: npm run test:browser -- --reporter=github,line
         env:
           CI: 'true'
+      - name: Preserve browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-failure-diagnostics
+          path: test-results
+          if-no-files-found: ignore
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
