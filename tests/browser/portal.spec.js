@@ -42,11 +42,16 @@ test('all documents, chapter links, source download and empty gallery load', asy
   await expect(page.locator('.markdown h2')).toHaveCount(21);
   await page.getByRole('link', { name: '21. Decisões abertas e riscos', exact: true }).click();
   await expect(page.locator('#doc-21-decisoes-abertas-e-riscos')).toBeInViewport();
-  for (const [route, title] of [['analysis', 'Análise do GDD'], ['art', 'Direção de arte'], ['pipeline', 'Pipeline de produção'], ['source', 'Documento original'], ['roadmap', 'Uma loja de cada vez.']]) {
+  for (const [route, title] of [['analysis', 'Análise do GDD'], ['art', 'Direção de arte'], ['modularity', 'Assets e modularidade'], ['pipeline', 'Pipeline de produção'], ['source', 'Documento original'], ['roadmap', 'Uma loja de cada vez.']]) {
     await page.goto('/#/' + route);
     await expect(page.locator('.page-heading h1')).toHaveText(title);
   }
   await expect(page.locator('.markdown')).not.toBeVisible();
+  await page.getByRole('link', { name: 'Assets e modularidade', exact: true }).click();
+  await expect(page.locator('.markdown')).toContainText('Bandejas de recebimento e devolução');
+  await expect(page.locator('.markdown')).toContainText('Contrato técnico dos kits');
+  await page.locator('.markdown a[href="#/asset/ELE-014"]').click();
+  await expect(page.locator('.page-heading h1')).toHaveText('Televisão CRT pequena');
   await page.goto('/#/source');
   await expect(page.locator('.markdown')).toContainText('DAT-018');
   const downloadPromise = page.waitForEvent('download');

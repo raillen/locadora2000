@@ -26,7 +26,7 @@ export async function check(root = defaultRoot) {
       if (hash(await readFile(path)) !== r.sourceSha256) throw Error('Hash da fonte divergente: ' + r.id);
     }
   }
-  for (const name of ['gdd', 'analise', 'pipeline', 'catalogo-original']) {
+  for (const name of ['gdd', 'analise', 'pipeline', 'catalogo-original', 'modularidade']) {
     const text = await readFile(resolve(root, `public/docs/${name}.md`), 'utf8');
     if (text.length < 200 || !text.startsWith('# ')) throw Error('Documento ausente/incompleto: ' + name);
   }

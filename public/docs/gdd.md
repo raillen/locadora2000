@@ -175,6 +175,14 @@ Não confundir estes painéis do jogo com o portal de documentação. O portal s
 
 **Pipeline da fonte:** Blockbench → GLB/glTF quando apropriado → Blender com câmera ortográfica/dimétrica → correção 2D em Krita/GIMP → PNG, thumbnail, atlas e metadados. Capas e UI podem nascer diretamente em 2D.
 
+### Referências visuais fornecidas pelo usuário
+
+As duas pranchas de LOCADORA 2000 enviadas em 19/10/2026 refinam o alvo visual: loja modular azul e amarelo quente, madeira e creme, CRTs volumosos, móveis robustos e personagens de silhueta simples. A leitura deve vir de caixas e prismas com poucos chanfros, materiais foscos, cores bem separadas e sombras suaves. Pequena oclusão de contato é compatível com esse acabamento; textura complexa e brilho fotográfico não fazem parte do alvo.
+
+O conjunto compartilha a paleta, mas cada objeto usa apenas as cores necessárias: eletrônicos podem ser grafite e cinza-azulado, sem receber azul e amarelo em todas as superfícies. Reaproveitar a identidade brasileira e a linguagem dos volumes, criando jogos, capas, marcas e personagens fictícios.
+
+As pranchas mostram principalmente vistas isométricas de apresentação. Os **sheets para modelagem** devem acrescentar frente, lateral, traseira, cima e baixo ortográficos conforme a geometria exigir, além de uma vista dimétrica de gameplay para conferir o estilo. As vistas técnicas precisam manter proporções e detalhes entre si; uma vista de apresentação não substitui a descrição das faces ocultas. Isso difere de um sprite sheet de animação, que organiza quadros e direções de movimento.
+
 ## 15. Áudio e música
 
 O catálogo tem 22 assets-base de áudio, incluindo tema, ambiente de loja, porta, caixa, UI e alertas. Música deve reforçar acolhimento sem competir com o feedback de atendimento. A fonte recomenda OGG para música/loops e WAV para efeitos.
@@ -200,6 +208,14 @@ Português brasileiro é P0 (`DAT-015`); inglês é P1 (`DAT-016`). Textos, moed
 O inventário original contém **358 assets-base em 16 categorias: 130 P0, 150 P1 e 78 P2**. Variantes, paletas e animações não estão incluídas como assets-base adicionais. O esforço real é maior que essa contagem.
 
 A tabela e a galeria do portal leem o mesmo catálogo e manifesto. Registrar um arquivo publica sua referência nas duas telas na próxima compilação/publicação. Um registro novo fica **Em revisão**; somente revisão explícita pode aprová-lo. Uma imagem de referência não equivale a sprite final testado na engine.
+
+### Complementos do inventário e kits modulares
+
+O [guia de assets e modularidade](#/modularity) documenta os complementos recomendados: kit de limpeza da loja, bandejas de recebimento/devolução, etiquetas comerciais, sujeira em camadas e instalação elétrica aparente. Também detalha conteúdos reutilizáveis para telas de TVs e PCs. Esses conjuntos ficam planejados à parte do inventário original até sua decomposição em registros de produção.
+
+Pisos, paredes, aberturas, fachada, balcões, estantes, estações, bancada de oficina, embalagens, sinalização e personagens devem aproveitar bases compartilhadas conforme a família. Cada kit precisa de dimensões na grade, footprint, âncora, encaixes, orientações e peças de fechamento. Separar modularidade de modelagem, variantes de material e estados de uso.
+
+A produção pode montar os modelos em peças e exportar sprites compostos. Na engine 2D, camadas independentes são indicadas para partes que mudam, respeitando a oclusão e a ordenação de profundidade. Depois do CRT, o próximo teste recomendado é uma estante modular: um módulo simples, dois conectados e versões vazia, parcial e cheia.
 
 Preservar fonte, versão, autoria/direitos, brief e arquivos exportados. IDs nunca são reutilizados. Mudanças de prioridade devem ser justificadas; a importação não deve apagar o histórico de produção.
 

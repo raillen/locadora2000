@@ -26,7 +26,12 @@ const paths = {
 };
 const icon = (name, size = 20) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.note}</svg>`;
 const docs = { gdd: { title: 'Game Design Document', file: 'gdd', kicker: 'DESIGN DO JOGO', desc: 'A visão, os sistemas e as decisões que dão forma à nossa locadora.' }, art: { title: 'Direção de arte', file: 'catalogo-original', kicker: 'BÍBLIA VISUAL', desc: 'Uma loja brasileira, formas simples e uma linguagem visual compartilhada.' }, pipeline: { title: 'Pipeline de produção', file: 'pipeline', kicker: 'DO ARQUIVO AO PORTAL', desc: 'Crie, registre, revise. Um fluxo para manter todos os assets no mesmo lugar.' }, analysis: { title: 'Análise do GDD', file: 'analise', kicker: 'LEITURA CRÍTICA', desc: 'O que a fonte define, as dependências encontradas e os próximos passos.' }, source: { title: 'Documento original', file: 'catalogo-original', kicker: 'FONTE PRESERVADA', desc: 'O catálogo mestre completo, como foi recebido, sem alterações.' } };
-const nav = [{ title: 'PROJETO', items: [['overview', 'Visão geral', 'home'], ['gdd', 'Game Design Document', 'book'], ['analysis', 'Análise do GDD', 'note']] }, { title: 'BIBLIOTECA DE ASSETS', items: [['table', 'Tabela de produção', 'table'], ['sheets', 'Galeria de assets', 'image']] }, { title: 'DOCUMENTAÇÃO', items: [['art', 'Direção de arte', 'art'], ['pipeline', 'Pipeline e publicação', 'flow'], ['roadmap', 'Roadmap', 'flag'], ['source', 'Documento original', 'note']] }];
+docs.modularity = { title: 'Assets e modularidade', file: 'modularidade', kicker: 'KITS E COMPLEMENTOS DO INVENTÁRIO', desc: 'Peças reutilizáveis, encaixes, variantes e estados para construir a nossa loja.' };
+const nav = [
+  { title: 'PROJETO', items: [['overview', 'Visão geral', 'home'], ['gdd', 'Game Design Document', 'book'], ['analysis', 'Análise do GDD', 'note']] },
+  { title: 'BIBLIOTECA DE ASSETS', items: [['table', 'Tabela de produção', 'table'], ['sheets', 'Galeria de assets', 'image']] },
+  { title: 'DOCUMENTAÇÃO', items: [['art', 'Direção de arte', 'art'], ['modularity', 'Assets e modularidade', 'table'], ['pipeline', 'Pipeline e publicação', 'flow'], ['roadmap', 'Roadmap', 'flag'], ['source', 'Documento original', 'note']] },
+];
 const route = () => {
   const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?');
   const [page = 'overview', id] = path.split('/');
@@ -94,6 +99,7 @@ async function documentPage(page, params, currentRender) {
   if (currentRender !== renderId) return null;
   let markdown = cache.get(doc.file);
   if (page === 'art') markdown = '# Direção de arte\n\n' + markdown.split('## 2. Direção visual')[1].split('## 3. Loop de gameplay')[0] + '\n\n## Checklist de produção\n\n' + markdown.split('## 6. Checklist de produção')[1].split('## 9. Resumo do inventário')[0];
+  if (page === 'art') markdown += '\n\n## Kits e peças reutilizáveis\n\nConsulte o [guia de assets e modularidade](#/modularity) para os complementos do inventário, famílias modulares, encaixes, estados e critérios do teste de estante. O [GDD](#/gdd?section=doc-14-direcao-de-arte) também registra a leitura das referências visuais fornecidas pelo usuário.\n';
   const headings = [], used = new Map(), renderer = new marked.Renderer();
   renderer.heading = function({ tokens, depth }) {
     const html = this.parser.parseInline(tokens), plain = html.replace(/<[^>]*>/g, '');

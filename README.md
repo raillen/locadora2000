@@ -40,6 +40,7 @@ Se ele não estiver em `/usr/bin/chromium`, defina `PLAYWRIGHT_CHROMIUM_EXECUTAB
 | `#/sheets` | Galeria de arquivos efetivamente registrados |
 | `#/art` | Direção visual e critérios técnicos |
 | `#/pipeline` | Registro, revisão e publicação de assets |
+| `#/modularity` | Complementos do inventário, kits modulares, encaixes e teste de estante |
 | `#/roadmap` | Plano de entregas, sem datas inventadas |
 | `#/source` | Markdown original preservado |
 

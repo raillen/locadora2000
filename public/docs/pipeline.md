@@ -8,6 +8,8 @@ O catálogo original está em `public/docs/catalogo-original.md`. `npm run catal
 
 ## Antes de produzir
 
+Consultar também o [guia de assets e modularidade](#/modularity), que define famílias reutilizáveis, complementos do inventário e o contrato técnico de encaixes.
+
 1. Ler a direção de arte do GDD e o briefing do ID escolhido.
 2. Conferir prioridade, estados e arquivos existentes na ficha do asset.
 3. Definir escala, câmera, âncora, footprint, variante e versão.
@@ -60,3 +62,5 @@ A tabela está em `https://raillen.com/locadora2000/#/table`; a galeria está em
 Usar PNG transparente, câmera compartilhada, uma direção de luz, âncora na base e tamanhos validados na cena. Exportar com nomes ASCII e sem espaços. Preservar os IDs do catálogo mesmo quando o nome humano mudar.
 
 Para o slice, começar por piso, paredes, balcão, duas estantes, console/CRT, PC e três personagens. Não iniciar 130 assets P0 antes de confirmar escala e integração.
+
+Ao produzir um kit modular, preservar o projeto com as peças reutilizáveis e documentar quais peças formam cada export. Conferir um módulo isolado, dois conectados, terminações e estados de ocupação. Validar o resultado com personagem e piso na escala de gameplay antes de ampliar o lote.
