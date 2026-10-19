@@ -1,0 +1,3653 @@
+{
+  "version": 1,
+  "project": "locadora2000",
+  "source": "docs/catalogo-original.md",
+  "categories": [
+    {
+      "id": "ENV",
+      "title": "Ambiente E Construção"
+    },
+    {
+      "id": "EXT",
+      "title": "Fachada E Exterior"
+    },
+    {
+      "id": "FUR",
+      "title": "Móveis E Mobiliário Comercial"
+    },
+    {
+      "id": "ELE",
+      "title": "Consoles, Telas E Eletrônicos"
+    },
+    {
+      "id": "MED",
+      "title": "Mídia, Jogos E Colecionáveis"
+    },
+    {
+      "id": "ACC",
+      "title": "Acessórios E Pequenos Eletrônicos"
+    },
+    {
+      "id": "REP",
+      "title": "Oficina, Diagnóstico E Reparo"
+    },
+    {
+      "id": "STK",
+      "title": "Estoque, Entrega E Administração"
+    },
+    {
+      "id": "DEC",
+      "title": "Decoração E Identidade Cultural"
+    },
+    {
+      "id": "CON",
+      "title": "Alimentos, Bebidas E Venda Por Impulso"
+    },
+    {
+      "id": "CHR",
+      "title": "Personagens E Variações Visuais"
+    },
+    {
+      "id": "ANI",
+      "title": "Animações De Personagens E Objetos"
+    },
+    {
+      "id": "UI",
+      "title": "Interface, Ícones E Hud"
+    },
+    {
+      "id": "VFX",
+      "title": "Efeitos Visuais"
+    },
+    {
+      "id": "AUD",
+      "title": "Áudio E Música"
+    },
+    {
+      "id": "DAT",
+      "title": "Dados, Texto E Conteúdo De Jogo"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ENV-001",
+      "title": "Tile de piso neutro",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Tile-base do chão interno da locadora; define a grade e o ritmo visual.",
+      "variants": "limpo, gasto, manchado",
+      "priority": "P0",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-002",
+      "title": "Piso cerâmico claro",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Piso principal inspirado em lojas brasileiras dos anos 2000.",
+      "variants": "bege, cinza-claro",
+      "priority": "P0",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-003",
+      "title": "Piso xadrez",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Piso decorativo para áreas de jogos ou entrada.",
+      "variants": "azul-creme, cinza-creme",
+      "priority": "P1",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-004",
+      "title": "Piso de borracha",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Piso resistente para oficina e estoque.",
+      "variants": "preto, grafite",
+      "priority": "P1",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-005",
+      "title": "Piso externo de calçada",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Base da calçada em frente à loja.",
+      "variants": "inteiro, rachado, remendado",
+      "priority": "P0",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-006",
+      "title": "Asfalto",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Trecho de rua visível no entorno da loja.",
+      "variants": "seco, remendado",
+      "priority": "P1",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-007",
+      "title": "Meio-fio",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Borda entre calçada e rua.",
+      "variants": "cinza, gasto",
+      "priority": "P1",
+      "format": "Sprite/atlas"
+    },
+    {
+      "id": "ENV-008",
+      "title": "Parede interna baixa",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Módulo de parede para layouts com visão aberta.",
+      "variants": "azul, creme, branco",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-009",
+      "title": "Parede interna alta",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Módulo de parede para áreas fechadas e fundos.",
+      "variants": "azul, creme, cartazes",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-010",
+      "title": "Parede externa",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Fachada lateral e traseira do edifício.",
+      "variants": "azul, amarelo, neutro",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-011",
+      "title": "Canto interno de parede",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Conecta paredes em ângulo sem emendas visíveis.",
+      "variants": "esquerdo, direito",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-012",
+      "title": "Canto externo de parede",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Fecha cantos externos do edifício.",
+      "variants": "esquerdo, direito",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-013",
+      "title": "Rodapé",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Acabamento na base das paredes.",
+      "variants": "azul, madeira, cinza",
+      "priority": "P2",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-014",
+      "title": "Porta de entrada",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Porta principal da locadora, com área de passagem.",
+      "variants": "aberta, fechada",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ENV-015",
+      "title": "Porta interna",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Porta para oficina, escritório e estoque.",
+      "variants": "aberta, fechada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ENV-016",
+      "title": "Janela frontal",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Janela de vitrine voltada para a rua.",
+      "variants": "clara, com adesivos",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-017",
+      "title": "Janela lateral",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Janela para iluminação e ambientação.",
+      "variants": "aberta, fechada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ENV-018",
+      "title": "Escada curta",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Pequena mudança de nível ou acesso de depósito.",
+      "variants": "cinza, madeira",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ENV-019",
+      "title": "Coluna estrutural",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Elemento de sustentação e quebra visual do espaço.",
+      "variants": "pintada, descascada",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ENV-020",
+      "title": "Grade de segurança",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Grade metálica para janela ou porta de serviço.",
+      "variants": "preta, cinza",
+      "priority": "P1",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "ENV-021",
+      "title": "Toldo",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Cobertura da entrada ou da vitrine.",
+      "variants": "azul-amarelo, vermelho-creme",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ENV-022",
+      "title": "Calha e cano",
+      "category": "ENV",
+      "categoryLabel": "Ambiente E Construção",
+      "description": "Detalhe externo de construção.",
+      "variants": "cinza, enferrujado",
+      "priority": "P2",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "EXT-001",
+      "title": "Fachada principal",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Conjunto principal da frente da loja, com letreiro e vitrine.",
+      "variants": "dia, noite; limpa, desgastada",
+      "priority": "P0",
+      "format": "Composição"
+    },
+    {
+      "id": "EXT-002",
+      "title": "Letreiro LOCADORA 2000",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Logo físico da loja em fachada.",
+      "variants": "aceso, apagado; níveis de melhoria",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "EXT-003",
+      "title": "Placa perpendicular",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Placa que se projeta da fachada para a calçada.",
+      "variants": "azul-amarelo, antiga",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-004",
+      "title": "Vitrine externa",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Conjunto de vidro e suportes para produtos em destaque.",
+      "variants": "básica, melhorada",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "EXT-005",
+      "title": "Adesivo de horário",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Horário de funcionamento aplicado à porta.",
+      "variants": "aberto, fechado, feriado",
+      "priority": "P1",
+      "format": "Decal/2D"
+    },
+    {
+      "id": "EXT-006",
+      "title": "Placa 'Alugam-se jogos'",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Sinalização temática para comunicar a atividade.",
+      "variants": "português, inglês",
+      "priority": "P1",
+      "format": "Decal/2D"
+    },
+    {
+      "id": "EXT-007",
+      "title": "Placa de promoção",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Quadro externo com oferta do dia.",
+      "variants": "preço variável, liquidação",
+      "priority": "P0",
+      "format": "Sprite/variável"
+    },
+    {
+      "id": "EXT-008",
+      "title": "Cavalete de calçada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Placa móvel de promoções.",
+      "variants": "aberto, recolhido",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "EXT-009",
+      "title": "Tapete de entrada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Tapete que marca a entrada e recebe sujeira.",
+      "variants": "limpo, sujo",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "EXT-010",
+      "title": "Lixeira externa",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Lixeira junto à porta.",
+      "variants": "vazia, cheia",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "EXT-011",
+      "title": "Vaso externo",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Planta decorativa para a fachada.",
+      "variants": "pequeno, grande",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-012",
+      "title": "Banco de calçada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Assento para clientes esperando.",
+      "variants": "madeira, metal",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-013",
+      "title": "Poste de iluminação",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Iluminação da calçada à noite.",
+      "variants": "aceso, apagado",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "EXT-014",
+      "title": "Bicicleta estacionada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Veículo de cliente na calçada.",
+      "variants": "azul, vermelho, usado",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-015",
+      "title": "Motocicleta estacionada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Veículo decorativo de cliente ou entregador.",
+      "variants": "cores variadas",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-016",
+      "title": "Ponto de ônibus distante",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Elemento de contexto urbano no cenário externo.",
+      "variants": "com placa, com banco",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-017",
+      "title": "Banca de jornal distante",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Estabelecimento de fundo para a rua.",
+      "variants": "fechada, aberta",
+      "priority": "P2",
+      "format": "Composição"
+    },
+    {
+      "id": "EXT-018",
+      "title": "Fachada de lanchonete vizinha",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Prédio vizinho que reforça o bairro.",
+      "variants": "dia, noite",
+      "priority": "P2",
+      "format": "Composição"
+    },
+    {
+      "id": "EXT-019",
+      "title": "Fachada de assistência técnica",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Vizinho ligado ao universo de eletrônicos.",
+      "variants": "básica, melhorada",
+      "priority": "P2",
+      "format": "Composição"
+    },
+    {
+      "id": "EXT-020",
+      "title": "Caixa de energia externa",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Detalhe de infraestrutura urbana.",
+      "variants": "intacta, envelhecida",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "EXT-021",
+      "title": "Caixas de entrega na calçada",
+      "category": "EXT",
+      "categoryLabel": "Fachada E Exterior",
+      "description": "Volumes aguardando recebimento pela loja.",
+      "variants": "1, 3, 5 caixas",
+      "priority": "P1",
+      "format": "Sprite/variação"
+    },
+    {
+      "id": "FUR-001",
+      "title": "Balcão de atendimento",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Balcão principal para aluguel, venda e devolução.",
+      "variants": "curto, longo; básico, melhorado",
+      "priority": "P0",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "FUR-002",
+      "title": "Balcão de caixa",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Área de cobrança com espaço para terminal e sacolas.",
+      "variants": "básico, avançado",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-003",
+      "title": "Balcão de exposição",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel para acessórios e itens de compra por impulso.",
+      "variants": "baixo, alto",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-004",
+      "title": "Estante de jogos baixa",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Prateleira baixa para capas e caixas de jogos.",
+      "variants": "vazia, meia, cheia",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-005",
+      "title": "Estante de jogos alta",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Estante vertical para ampliar a capacidade de estoque exposto.",
+      "variants": "vazia, meia, cheia",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-006",
+      "title": "Estante dupla",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel central acessível pelos dois lados.",
+      "variants": "vazia, meia, cheia",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-007",
+      "title": "Estante de filmes",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Prateleira para seção opcional de DVDs e filmes.",
+      "variants": "vazia, meia, cheia",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-008",
+      "title": "Vitrine de vidro",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel para itens raros e produtos caros.",
+      "variants": "vazia, ocupada, iluminada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-009",
+      "title": "Expositor giratório",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Expositor compacto para acessórios pequenos.",
+      "variants": "vazio, cheio",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-010",
+      "title": "Prateleira de parede",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Módulo decorativo ou de produtos na parede.",
+      "variants": "curta, longa",
+      "priority": "P1",
+      "format": "Sprite modular"
+    },
+    {
+      "id": "FUR-011",
+      "title": "Mesa de computador",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Mesa para estação de lan house.",
+      "variants": "simples, dupla",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-012",
+      "title": "Mesa de console",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Mesa ou suporte para TV e console.",
+      "variants": "pequena, larga",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-013",
+      "title": "Mesa de oficina",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Bancada para diagnóstico e reparos.",
+      "variants": "básica, equipada",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-014",
+      "title": "Mesa de escritório",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel do gerente para documentos e computador.",
+      "variants": "simples, executiva",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-015",
+      "title": "Cadeira de madeira",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Assento econômico para clientes e funcionários.",
+      "variants": "natural, pintada",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-016",
+      "title": "Cadeira plástica",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Cadeira barata e comum em ambientes de bairro.",
+      "variants": "azul, vermelha, branca",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-017",
+      "title": "Cadeira giratória",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Cadeira para estações de computador.",
+      "variants": "básica, confortável",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-018",
+      "title": "Banco comprido",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Assento coletivo para espera ou área de jogos.",
+      "variants": "madeira, metal",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-019",
+      "title": "Sofá de dois lugares",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel para a área de consoles.",
+      "variants": "azul, vermelho, gasto",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-020",
+      "title": "Poltrona",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Assento individual para área premium.",
+      "variants": "cores variadas, usada",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-021",
+      "title": "Armário de estoque",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Armazenamento fechado para produtos e ferramentas.",
+      "variants": "baixo, alto",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-022",
+      "title": "Arquivo de gavetas",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Móvel para fichas e documentação da loja.",
+      "variants": "cinza, bege",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-023",
+      "title": "Gaveteiro de balcão",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Organizador para dinheiro, recibos e acessórios.",
+      "variants": "aberto, fechado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-024",
+      "title": "Carrinho de reposição",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Carrinho para transportar caixas dentro da loja.",
+      "variants": "vazio, carregado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-025",
+      "title": "Lixeira interna",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Recipiente para lixo da loja.",
+      "variants": "vazia, cheia",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "FUR-026",
+      "title": "Tapete decorativo",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Tapete de área de jogos ou entrada.",
+      "variants": "liso, geométrico, logo",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-027",
+      "title": "Biombo ou divisória",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Separa áreas de atendimento e jogo.",
+      "variants": "curto, longo",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "FUR-028",
+      "title": "Suporte de parede para controles",
+      "category": "FUR",
+      "categoryLabel": "Móveis E Mobiliário Comercial",
+      "description": "Exposição e armazenamento de controles.",
+      "variants": "vazio, ocupado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-001",
+      "title": "Console doméstico geração 1",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Console fictício de cartuchos, visual simples e angular.",
+      "variants": "cinza, preto; ligado, desligado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-002",
+      "title": "Console doméstico geração 2",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Console fictício de 16-bit com detalhes coloridos.",
+      "variants": "preto, cinza",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-003",
+      "title": "Console doméstico geração 3",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Console fictício de 32/64-bit, corpo compacto.",
+      "variants": "cinza, preto",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-004",
+      "title": "Console doméstico geração 4",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Console fictício do início dos anos 2000.",
+      "variants": "preto, prata; ligado, desligado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-005",
+      "title": "Console doméstico geração 5",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Console fictício com design futurista para progressão avançada.",
+      "variants": "preto, branco",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-006",
+      "title": "Console portátil monocromático",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Dispositivo portátil simples com tela verde.",
+      "variants": "cinza, roxo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-007",
+      "title": "Console portátil colorido",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Portátil com tela colorida e botões destacados.",
+      "variants": "azul, vermelho, amarelo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-008",
+      "title": "Console portátil avançado",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Portátil com tela maior para fase posterior.",
+      "variants": "prata, preto",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-009",
+      "title": "Controle clássico",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Controle fictício com direcional e poucos botões.",
+      "variants": "cinza, preto, colorido",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-010",
+      "title": "Controle de seis botões",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Controle para jogos de luta e arcade.",
+      "variants": "preto, colorido",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-011",
+      "title": "Controle analógico",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Controle com alavancas e botões frontais.",
+      "variants": "cinza, preto",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-012",
+      "title": "Controle sem fio",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Controle de geração posterior.",
+      "variants": "preto, branco",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-013",
+      "title": "Controle quebrado",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Versão danificada usada em reparos ou negociação.",
+      "variants": "cabo rompido, botão faltando",
+      "priority": "P1",
+      "format": "Sprite/estado"
+    },
+    {
+      "id": "ELE-014",
+      "title": "Televisão CRT pequena",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "TV de tubo para estação individual.",
+      "variants": "14, 20 polegadas; ligada, desligada",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-015",
+      "title": "Televisão CRT grande",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "TV de tubo para área de jogos ou campeonato.",
+      "variants": "21, 29 polegadas",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-016",
+      "title": "Televisão LCD antiga",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Tela plana para progressão tecnológica.",
+      "variants": "ligada, desligada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-017",
+      "title": "Monitor CRT",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Monitor de tubo para computador de lan house.",
+      "variants": "ligado, desligado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-018",
+      "title": "Monitor LCD",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Monitor de computador para upgrade.",
+      "variants": "básico, avançado",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-019",
+      "title": "Computador desktop",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Torre de PC com design de época.",
+      "variants": "bege, preto; lateral aberta",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-020",
+      "title": "Mini PC ou torre compacta",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Computador melhorado de menor volume.",
+      "variants": "preto, prata",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-021",
+      "title": "Teclado",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Periférico de computador.",
+      "variants": "bege, preto; limpo, sujo",
+      "priority": "P0",
+      "format": "Sprite/estado"
+    },
+    {
+      "id": "ELE-022",
+      "title": "Mouse",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Periférico de computador.",
+      "variants": "com fio, sem fio",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-023",
+      "title": "Mousepad",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Base para mouse, inclusive versões promocionais.",
+      "variants": "liso, estampado",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-024",
+      "title": "Fone de ouvido",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Fone usado por clientes em computadores.",
+      "variants": "simples, acolchoado",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-025",
+      "title": "Caixas de som",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Par de alto-falantes de computador.",
+      "variants": "pequenas, grandes",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-026",
+      "title": "Roteador",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Equipamento para conexão de rede.",
+      "variants": "básico, avançado; ligado, desligado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-027",
+      "title": "Switch de rede",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Equipamento para conectar várias estações.",
+      "variants": "8 portas, 16 portas",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-028",
+      "title": "Modem antigo",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Equipamento de internet da época.",
+      "variants": "bege, preto",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-029",
+      "title": "Estabilizador",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Equipamento elétrico comum em setups antigos.",
+      "variants": "cinza, bege",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-030",
+      "title": "Filtro de linha",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Acessório de energia para várias estações.",
+      "variants": "4, 6 tomadas",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-031",
+      "title": "Nobreak",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Proteção de energia para equipamentos caros.",
+      "variants": "básico, avançado",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-032",
+      "title": "Impressora",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Impressora de recibos ou documentos.",
+      "variants": "jato de tinta, matricial",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ELE-033",
+      "title": "Leitor de código de barras",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Dispositivo de caixa para produtos cadastrados.",
+      "variants": "com fio, sem fio",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ELE-034",
+      "title": "Máquina de fliperama",
+      "category": "ELE",
+      "categoryLabel": "Consoles, Telas E Eletrônicos",
+      "description": "Cabine arcade com tela, botões e joystick.",
+      "variants": "jogo de luta, corrida, shooter",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-001",
+      "title": "Caixa de jogo para cartucho",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Embalagem fictícia para jogos antigos.",
+      "variants": "várias cores e gêneros",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-002",
+      "title": "Cartucho pequeno",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Mídia física de console antigo.",
+      "variants": "cinza, colorido, etiqueta",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-003",
+      "title": "Cartucho grande",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Cartucho de formato maior para consoles clássicos.",
+      "variants": "cinza, preto, colorido",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-004",
+      "title": "Caixa de jogo em CD",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Embalagem de jogo em caixa de CD.",
+      "variants": "padrão, dupla",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-005",
+      "title": "Caixa de jogo em DVD",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Embalagem para jogos da geração 2000.",
+      "variants": "padrão, edição especial",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-006",
+      "title": "Caixa de jogo portátil",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Embalagem compacta para portátil.",
+      "variants": "cartonado, plástico",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-007",
+      "title": "Manual de instruções",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Livreto dentro de caixas de jogos.",
+      "variants": "fechado, aberto",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "MED-008",
+      "title": "Disco de jogo",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Mídia circular usada para aluguel e reparo.",
+      "variants": "limpo, riscado, quebrado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "MED-009",
+      "title": "Disco de demonstração",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Disco promocional para evento ou item barato.",
+      "variants": "várias capas",
+      "priority": "P2",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-010",
+      "title": "Caixa de DVD de filme",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Mídia opcional para seção de filmes.",
+      "variants": "gêneros variados",
+      "priority": "P2",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-011",
+      "title": "Cartão de memória",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Acessório para salvar progresso.",
+      "variants": "cinza, azul, transparente",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-012",
+      "title": "Memory unit fictícia",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Armazenamento removível de geração posterior.",
+      "variants": "preto, branco",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "MED-013",
+      "title": "Adaptador de cartão",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Acessório pequeno para conectar mídias.",
+      "variants": "cinza, preto",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "MED-014",
+      "title": "Capa protetora de cartucho",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Estojo ou capa para preservar mídia.",
+      "variants": "transparente, colorida",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "MED-015",
+      "title": "Caixa de jogo rara",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Versão especial com acabamento diferenciado.",
+      "variants": "selada, usada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "MED-016",
+      "title": "Jogo falsificado",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Item de procedência duvidosa para mecânica de inspeção.",
+      "variants": "capa genérica, etiqueta ruim",
+      "priority": "P1",
+      "format": "Sprite/estado"
+    },
+    {
+      "id": "MED-017",
+      "title": "Jogo sem caixa",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Mídia usada vendida sem embalagem.",
+      "variants": "cartucho, disco",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "MED-018",
+      "title": "Lote de jogos usados",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Conjunto de mídias comprado de clientes.",
+      "variants": "pequeno, médio, grande",
+      "priority": "P0",
+      "format": "Composição"
+    },
+    {
+      "id": "MED-019",
+      "title": "Revista de videogame fictícia",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Revista de época usada como decoração ou colecionável.",
+      "variants": "capas variadas",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "MED-020",
+      "title": "Guia de estratégia",
+      "category": "MED",
+      "categoryLabel": "Mídia, Jogos E Colecionáveis",
+      "description": "Livro com dicas de jogos fictícios.",
+      "variants": "fino, grosso",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-001",
+      "title": "Cabo de energia",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Cabo de alimentação para console ou TV.",
+      "variants": "curto, longo; bom, danificado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ACC-002",
+      "title": "Cabo AV",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Cabo de vídeo composto para consoles antigos.",
+      "variants": "conectores coloridos",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-003",
+      "title": "Cabo RF",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Cabo de antena para equipamento antigo.",
+      "variants": "enrolado, reto",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-004",
+      "title": "Cabo de rede",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Cabo Ethernet para computadores.",
+      "variants": "cores variadas",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-005",
+      "title": "Cabo USB",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Cabo para periféricos e acessórios posteriores.",
+      "variants": "curto, longo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-006",
+      "title": "Extensão elétrica",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Extensão para alimentar estações.",
+      "variants": "branca, preta",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-007",
+      "title": "Adaptador de tomada",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Adaptador pequeno para compatibilidade elétrica.",
+      "variants": "simples, múltiplo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-008",
+      "title": "Bateria AA",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Pilha usada em controles e acessórios.",
+      "variants": "avulsa, par, pacote",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-009",
+      "title": "Bateria recarregável",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Acessório de maior valor para dispositivos portáteis.",
+      "variants": "par, carregando",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ACC-010",
+      "title": "Carregador portátil",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Carregador para console portátil.",
+      "variants": "básico, danificado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ACC-011",
+      "title": "Volante de corrida",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Periférico para estação especial.",
+      "variants": "básico, com pedais",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-012",
+      "title": "Joystick arcade",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Controle com alavanca para fliperama.",
+      "variants": "preto, vermelho",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-013",
+      "title": "Adaptador multijogador",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Acessório para conectar controles extras.",
+      "variants": "2 portas, 4 portas",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-014",
+      "title": "Câmera USB",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Webcam para estações de computador.",
+      "variants": "básica, avançada",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-015",
+      "title": "Microfone",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Microfone para partidas e eventos.",
+      "variants": "mesa, headset",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-016",
+      "title": "Pendrive antigo",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Armazenamento portátil de geração posterior.",
+      "variants": "pequeno, grande",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-017",
+      "title": "Limpador de disco",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Kit para limpar mídias.",
+      "variants": "frasco, pano, kit completo",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ACC-018",
+      "title": "Estojo de transporte",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Bolsa para console portátil ou acessórios.",
+      "variants": "preto, colorido",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "ACC-019",
+      "title": "Película protetora",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Acessório pequeno para portátil.",
+      "variants": "embalagem, aplicada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "ACC-020",
+      "title": "Chaveiro gamer fictício",
+      "category": "ACC",
+      "categoryLabel": "Acessórios E Pequenos Eletrônicos",
+      "description": "Brinde ou item de venda por impulso.",
+      "variants": "formas e cores variadas",
+      "priority": "P2",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "REP-001",
+      "title": "Bancada de reparo",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Superfície principal para manutenção de consoles e controles.",
+      "variants": "básica, melhorada",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-002",
+      "title": "Tapete antiestático",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Área segura para eletrônicos na bancada.",
+      "variants": "azul, verde",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-003",
+      "title": "Chave de fenda",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Ferramenta manual de reparo.",
+      "variants": "pequena, média",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-004",
+      "title": "Jogo de chaves",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Conjunto organizado de ferramentas.",
+      "variants": "básico, completo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-005",
+      "title": "Alicate",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Ferramenta para cabos e peças.",
+      "variants": "pequeno, grande",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-006",
+      "title": "Pinça",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Ferramenta para componentes pequenos.",
+      "variants": "reta, curva",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-007",
+      "title": "Ferro de solda",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Ferramenta para reparos eletrônicos avançados.",
+      "variants": "desligado, ligado",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-008",
+      "title": "Estação de solda",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Equipamento de oficina avançada.",
+      "variants": "básica, avançada",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-009",
+      "title": "Multímetro",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Instrumento para diagnóstico elétrico.",
+      "variants": "desligado, medindo",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-010",
+      "title": "Lupa com luminária",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Equipamento para inspeção de componentes.",
+      "variants": "apagada, acesa",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-011",
+      "title": "Ar comprimido",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Lata para limpeza de poeira.",
+      "variants": "cheia, vazia",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-012",
+      "title": "Pincel antiestático",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Ferramenta de limpeza delicada.",
+      "variants": "limpo, usado",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "REP-013",
+      "title": "Pano de microfibra",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Pano para limpeza de telas e discos.",
+      "variants": "limpo, sujo",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-014",
+      "title": "Álcool isopropílico",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Frasco de produto de limpeza técnico.",
+      "variants": "cheio, quase vazio",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-015",
+      "title": "Peças eletrônicas",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Pequenos componentes usados em reparos.",
+      "variants": "capacitores, botões, conectores",
+      "priority": "P1",
+      "format": "Sprite/coleção"
+    },
+    {
+      "id": "REP-016",
+      "title": "Carcaça de controle",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Peça substituta para controle danificado.",
+      "variants": "cores variadas",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "REP-017",
+      "title": "Botões de reposição",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Conjunto de botões para controles.",
+      "variants": "cores variadas",
+      "priority": "P1",
+      "format": "Sprite/coleção"
+    },
+    {
+      "id": "REP-018",
+      "title": "Caixa de ferramentas",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Organizador de ferramentas da oficina.",
+      "variants": "fechada, aberta",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-019",
+      "title": "Console aberto para reparo",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Estado visual de console desmontado.",
+      "variants": "gerações diferentes",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-020",
+      "title": "Controle desmontado",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Peças separadas para minijogo de reparo.",
+      "variants": "parcial, completo",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-021",
+      "title": "Disco em teste",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Mídia posicionada em equipamento de leitura.",
+      "variants": "funcionando, com erro",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "REP-022",
+      "title": "Estação de teste",
+      "category": "REP",
+      "categoryLabel": "Oficina, Diagnóstico E Reparo",
+      "description": "Monitor, cabos e console usados para verificar funcionamento.",
+      "variants": "básica, avançada",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "STK-001",
+      "title": "Caixa de papelão pequena",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Caixa para entrega e organização de acessórios.",
+      "variants": "fechada, aberta",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-002",
+      "title": "Caixa de papelão média",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Caixa para lotes de jogos e periféricos.",
+      "variants": "fechada, aberta",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-003",
+      "title": "Caixa de papelão grande",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Caixa para consoles e equipamentos.",
+      "variants": "fechada, aberta",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-004",
+      "title": "Pilha de caixas",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Conjunto de volumes aguardando conferência.",
+      "variants": "2, 4, 6 caixas",
+      "priority": "P1",
+      "format": "Composição"
+    },
+    {
+      "id": "STK-005",
+      "title": "Prateleira de estoque",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Estante funcional para itens não expostos.",
+      "variants": "vazia, parcial, cheia",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-006",
+      "title": "Caixa organizadora plástica",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Recipiente para pequenos produtos.",
+      "variants": "azul, cinza, transparente",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "STK-007",
+      "title": "Carrinho de carga",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Carrinho para mover entregas.",
+      "variants": "vazio, carregado",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-008",
+      "title": "Prancheta de inventário",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Prancheta usada para conferir mercadorias.",
+      "variants": "vazia, com papel",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-009",
+      "title": "Caderno de locações",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Registro manual de aluguéis no início do jogo.",
+      "variants": "fechado, aberto",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-010",
+      "title": "Fichário de clientes",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Arquivo físico com cadastro dos clientes.",
+      "variants": "fechado, aberto",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-011",
+      "title": "Calculadora",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Ferramenta para contas rápidas.",
+      "variants": "desligada, ligada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-012",
+      "title": "Telefone fixo",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Telefone para reservas e contato com fornecedores.",
+      "variants": "tocando, parado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-013",
+      "title": "Computador administrativo",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Terminal para estoque, finanças e pedidos.",
+      "variants": "ligado, desligado",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-014",
+      "title": "Impressora de recibos",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Imprime comprovantes e etiquetas.",
+      "variants": "ociosa, imprimindo",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-015",
+      "title": "Etiquetadora",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Ferramenta para imprimir preço e código.",
+      "variants": "ociosa, trabalhando",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-016",
+      "title": "Dinheiro em caixa",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Representação visual de dinheiro e troco.",
+      "variants": "notas, moedas, maço",
+      "priority": "P0",
+      "format": "Sprite/variação"
+    },
+    {
+      "id": "STK-017",
+      "title": "Cofre pequeno",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Armazenamento de dinheiro após o fechamento.",
+      "variants": "fechado, aberto",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "STK-018",
+      "title": "Pasta de documentos",
+      "category": "STK",
+      "categoryLabel": "Estoque, Entrega E Administração",
+      "description": "Pasta para notas fiscais e contratos.",
+      "variants": "azul, bege; aberta, fechada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-001",
+      "title": "Pôster de jogo de ação fictício",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Pôster colorido com arte original para parede.",
+      "variants": "3 capas",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-002",
+      "title": "Pôster de jogo de corrida fictício",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Arte promocional para decoração.",
+      "variants": "3 capas",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-003",
+      "title": "Pôster de jogo de luta fictício",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Arte de campeonato e personagens originais.",
+      "variants": "3 capas",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-004",
+      "title": "Pôster de jogo de aventura fictício",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Pôster de fantasia ou aventura.",
+      "variants": "3 capas",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-005",
+      "title": "Pôster de lançamento",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Cartaz de novidade com espaço para título e data.",
+      "variants": "vários jogos",
+      "priority": "P0",
+      "format": "Template 2D"
+    },
+    {
+      "id": "DEC-006",
+      "title": "Cartaz de promoção",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Material de preço e desconto.",
+      "variants": "oferta, liquidação, combo",
+      "priority": "P0",
+      "format": "Template 2D"
+    },
+    {
+      "id": "DEC-007",
+      "title": "Cartaz de campeonato",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Anúncio de torneio local.",
+      "variants": "luta, corrida, futebol fictício",
+      "priority": "P1",
+      "format": "Template 2D"
+    },
+    {
+      "id": "DEC-008",
+      "title": "Quadro de avisos",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Painel para recados, eventos e pedidos.",
+      "variants": "vazio, ocupado",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-009",
+      "title": "Calendário de parede",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Calendário de época para reforçar a ambientação.",
+      "variants": "meses e estados",
+      "priority": "P2",
+      "format": "Sprite/variável"
+    },
+    {
+      "id": "DEC-010",
+      "title": "Relógio de parede",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Relógio analógico para marcar o expediente.",
+      "variants": "redondo, quadrado",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "DEC-011",
+      "title": "Ventilador de parede",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Ventilador comum de loja de bairro.",
+      "variants": "parado, girando",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-012",
+      "title": "Ventilador de pedestal",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Ventilador móvel para áreas quentes.",
+      "variants": "parado, girando",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-013",
+      "title": "Luminária pendente",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Luz geral sobre o balcão.",
+      "variants": "acesa, apagada",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-014",
+      "title": "Luminária fluorescente",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Iluminação de teto típica de comércio.",
+      "variants": "acesa, apagada, falhando",
+      "priority": "P0",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-015",
+      "title": "Planta em vaso pequeno",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Decoração de prateleira ou balcão.",
+      "variants": "3 espécies",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-016",
+      "title": "Planta grande",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Planta de chão para cantos da loja.",
+      "variants": "3 espécies",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "DEC-017",
+      "title": "Aquário decorativo",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Objeto opcional para loja avançada.",
+      "variants": "ligado, desligado",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-018",
+      "title": "Adesivo de marca fictícia",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Adesivo para vitrine, PC ou balcão.",
+      "variants": "6 designs",
+      "priority": "P1",
+      "format": "Decal/2D"
+    },
+    {
+      "id": "DEC-019",
+      "title": "Bandeirinha de evento",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Decoração temporária para campeonatos.",
+      "variants": "cores variadas",
+      "priority": "P2",
+      "format": "Sprite"
+    },
+    {
+      "id": "DEC-020",
+      "title": "Faixa de inauguração",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Decoração de evento de expansão.",
+      "variants": "intacta, desgastada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-021",
+      "title": "Tapete com logo",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Tapete personalizado da loja.",
+      "variants": "azul, amarelo",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "DEC-022",
+      "title": "Relógio digital",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Relógio eletrônico de parede ou balcão.",
+      "variants": "hora variável",
+      "priority": "P2",
+      "format": "Sprite/variável"
+    },
+    {
+      "id": "DEC-023",
+      "title": "Caixa de som portátil",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Fonte de música ambiente ou anúncio.",
+      "variants": "desligada, ligada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "DEC-024",
+      "title": "Trofeu de campeonato",
+      "category": "DEC",
+      "categoryLabel": "Decoração E Identidade Cultural",
+      "description": "Recompensa exposta após eventos.",
+      "variants": "bronze, prata, ouro",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-001",
+      "title": "Geladeira de bebidas",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Geladeira vertical para bebidas e lanches.",
+      "variants": "fechada, aberta; vazia, abastecida",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-002",
+      "title": "Máquina de refrigerante",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Máquina de venda automática opcional.",
+      "variants": "ligada, desligada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-003",
+      "title": "Garrafa de refrigerante",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Produto unitário de venda.",
+      "variants": "cola fictícia, laranja, limão",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-004",
+      "title": "Lata de refrigerante",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Bebida em lata para venda rápida.",
+      "variants": "3 sabores",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-005",
+      "title": "Garrafa de água",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Produto de consumo básico.",
+      "variants": "pequena, grande",
+      "priority": "P0",
+      "format": "Sprite"
+    },
+    {
+      "id": "CON-006",
+      "title": "Suco de caixinha",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Bebida comum para público jovem.",
+      "variants": "3 sabores",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-007",
+      "title": "Pacote de salgadinho",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Produto de venda por impulso.",
+      "variants": "3 sabores fictícios",
+      "priority": "P0",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-008",
+      "title": "Pacote de biscoito",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Lanche embalado.",
+      "variants": "doce, salgado",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-009",
+      "title": "Barra de chocolate",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Doce unitário para caixa.",
+      "variants": "3 embalagens",
+      "priority": "P1",
+      "format": "Sprite/skins"
+    },
+    {
+      "id": "CON-010",
+      "title": "Bala e chiclete",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Pequenos produtos de caixa.",
+      "variants": "pote, pacote",
+      "priority": "P1",
+      "format": "Sprite"
+    },
+    {
+      "id": "CON-011",
+      "title": "Pote de doces",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Recipiente de balcão com doces variados.",
+      "variants": "vazio, cheio",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-012",
+      "title": "Cafeteira",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Equipamento de café para funcionários ou clientes.",
+      "variants": "desligada, ligada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-013",
+      "title": "Copo descartável",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Copo para bebidas quentes ou frias.",
+      "variants": "vazio, cheio",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-014",
+      "title": "Bandeja de lanches",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Organiza itens de consumo.",
+      "variants": "vazia, ocupada",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-015",
+      "title": "Expositor de snacks",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Prateleira pequena junto ao caixa.",
+      "variants": "vazio, abastecido",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-016",
+      "title": "Caixa de refrigerante",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Embalagem para reposição de bebidas.",
+      "variants": "fechada, aberta",
+      "priority": "P1",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CON-017",
+      "title": "Máquina de água",
+      "category": "CON",
+      "categoryLabel": "Alimentos, Bebidas E Venda Por Impulso",
+      "description": "Bebedouro ou filtro de água.",
+      "variants": "com galão, sem galão",
+      "priority": "P2",
+      "format": "Sprite/estados"
+    },
+    {
+      "id": "CHR-001",
+      "title": "Dono da locadora",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Personagem principal; roupa casual e silhueta reconhecível.",
+      "variants": "3 roupas, 4 direções",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-002",
+      "title": "Atendente jovem",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Funcionário que opera caixa e devoluções.",
+      "variants": "2 roupas, 4 direções",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-003",
+      "title": "Técnico de reparos",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Funcionário com roupa prática e acessórios de oficina.",
+      "variants": "2 roupas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-004",
+      "title": "Cliente estudante A",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Jovem cliente frequente após a escola.",
+      "variants": "3 paletas, 4 direções",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-005",
+      "title": "Cliente estudante B",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Segundo perfil jovem para variedade visual.",
+      "variants": "3 paletas, 4 direções",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-006",
+      "title": "Cliente adulto casual",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Cliente que aluga ou compra jogos.",
+      "variants": "3 paletas, 4 direções",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-007",
+      "title": "Pai ou mãe cliente",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Cliente acompanhado de criança ou buscando presente.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-008",
+      "title": "Criança cliente",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Cliente jovem para eventos e horários escolares.",
+      "variants": "3 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-009",
+      "title": "Colecionador",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Cliente com roupa e bolsa que sugerem cuidado com itens raros.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-010",
+      "title": "Cliente competitivo",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Jogador frequente que participa de campeonatos.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-011",
+      "title": "Cliente atrasado recorrente",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Perfil para eventos de devolução atrasada.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-012",
+      "title": "Cliente negociador",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Pessoa que oferece produtos usados para venda ou troca.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-013",
+      "title": "Entregador",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Personagem que traz caixas de fornecedores.",
+      "variants": "2 roupas, 4 direções",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-014",
+      "title": "Representante de fornecedor",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "NPC para pedidos e desbloqueios comerciais.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-015",
+      "title": "Concorrente lojista",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Personagem associado à loja rival.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-016",
+      "title": "Cliente idoso colecionador",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Cliente que busca títulos antigos e conversa com a equipe.",
+      "variants": "2 paletas, 4 direções",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-017",
+      "title": "Cliente com mochila",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Variação visual de cliente que chega da escola.",
+      "variants": "3 mochilas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-018",
+      "title": "Cliente com sacola",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Variação para quem sai com compras.",
+      "variants": "3 sacolas, 4 direções",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-019",
+      "title": "Silhuetas de multidão",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Personagens simplificados para eventos e fundo.",
+      "variants": "6 silhuetas",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "CHR-020",
+      "title": "Mãos de interação",
+      "category": "CHR",
+      "categoryLabel": "Personagens E Variações Visuais",
+      "description": "Mãos estilizadas para close-ups de reparo ou atendimento.",
+      "variants": "neutras, segurando item",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-001",
+      "title": "Locomoção 4 direções",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Ciclo de caminhada para NPCs e jogador.",
+      "variants": "NE, NW, SE, SW; 6–8 quadros",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-002",
+      "title": "Idle 4 direções",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação curta de personagem parado.",
+      "variants": "2–4 quadros por direção",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-003",
+      "title": "Atender no balcão",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação de interação entre funcionário e cliente.",
+      "variants": "iniciar, atender, concluir",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-004",
+      "title": "Pegar e colocar item",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação de recolher ou posicionar mercadoria.",
+      "variants": "caixa, jogo, acessório",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-005",
+      "title": "Carregar caixa",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Caminhada com caixa ou pacote.",
+      "variants": "caixa pequena, média, grande",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-006",
+      "title": "Sentar",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Transição para cadeira ou sofá.",
+      "variants": "4 direções principais",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-007",
+      "title": "Jogar console",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Personagem sentado usando controle.",
+      "variants": "vitória, neutro, frustrado",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-008",
+      "title": "Usar computador",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Personagem sentado digitando ou usando mouse.",
+      "variants": "ocioso, digitando",
+      "priority": "P0",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-009",
+      "title": "Conversar",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Gestos simples de conversa.",
+      "variants": "neutro, animado, irritado",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-010",
+      "title": "Inspecionar produto",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "NPC ou jogador examinando jogo usado.",
+      "variants": "normal, suspeito, satisfeito",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-011",
+      "title": "Negociar preço",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Gestos de oferta e recusa.",
+      "variants": "oferecer, pensar, aceitar, recusar",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-012",
+      "title": "Consertar equipamento",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação de trabalho na bancada.",
+      "variants": "limpar, abrir, montar",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-013",
+      "title": "Entregar produto",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Troca visual de item entre duas pessoas.",
+      "variants": "jogo, console, dinheiro",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-014",
+      "title": "Comemorar vitória",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação de cliente vencendo campeonato.",
+      "variants": "curta, coletiva",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-015",
+      "title": "Reação negativa",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Reclamação, frustração ou insatisfação.",
+      "variants": "espera, preço, produto defeituoso",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-016",
+      "title": "Usar telefone",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Funcionário ou cliente falando ao telefone.",
+      "variants": "parado, andando",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-017",
+      "title": "Máquina arcade em uso",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Efeito de tela e botões durante a partida.",
+      "variants": "idle, jogando",
+      "priority": "P2",
+      "format": "Sprite/efeito"
+    },
+    {
+      "id": "ANI-018",
+      "title": "Porta abrindo",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação de abertura da porta da loja.",
+      "variants": "abrir, fechar",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-019",
+      "title": "Luzes piscando",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Animação para letreiro ou equipamento com falha.",
+      "variants": "lento, rápido",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "ANI-020",
+      "title": "Efeito de reposição",
+      "category": "ANI",
+      "categoryLabel": "Animações De Personagens E Objetos",
+      "description": "Pequena animação ao abastecer uma prateleira.",
+      "variants": "1, 3, 5 itens",
+      "priority": "P1",
+      "format": "Sprite/efeito"
+    },
+    {
+      "id": "UI-001",
+      "title": "Logo principal do jogo",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Marca LOCADORA 2000 para menus e materiais promocionais.",
+      "variants": "horizontal, compacto",
+      "priority": "P0",
+      "format": "PNG/SVG"
+    },
+    {
+      "id": "UI-002",
+      "title": "Logo monocromático",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Versão para telas pequenas e documentos.",
+      "variants": "claro, escuro",
+      "priority": "P1",
+      "format": "PNG/SVG"
+    },
+    {
+      "id": "UI-003",
+      "title": "Ícone de aplicativo",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Ícone de executável e loja digital.",
+      "variants": "1024, 512, 256 px",
+      "priority": "P0",
+      "format": "PNG"
+    },
+    {
+      "id": "UI-004",
+      "title": "Tela inicial",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Composição principal com loja, título e botões.",
+      "variants": "dia, noite",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-005",
+      "title": "Botões padrão",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Botões de menu e confirmação.",
+      "variants": "normal, hover, pressionado, desativado",
+      "priority": "P0",
+      "format": "UI atlas"
+    },
+    {
+      "id": "UI-006",
+      "title": "Ícones de navegação",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Ícones de voltar, fechar, confirmar e avançar.",
+      "variants": "claro, escuro",
+      "priority": "P0",
+      "format": "UI atlas"
+    },
+    {
+      "id": "UI-007",
+      "title": "Ícone de dinheiro",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa caixa e saldo.",
+      "variants": "pequeno, grande",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-008",
+      "title": "Ícone de reputação",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa reputação e avaliações da loja.",
+      "variants": "níveis",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-009",
+      "title": "Ícone de popularidade",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa demanda de jogos e categorias.",
+      "variants": "baixo, médio, alto",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-010",
+      "title": "Ícone de estoque",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Acesso ao inventário e mercadorias.",
+      "variants": "normal, alerta",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-011",
+      "title": "Ícone de aluguel",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa empréstimos e devoluções.",
+      "variants": "normal, atrasado",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-012",
+      "title": "Ícone de reparo",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa oficina e manutenção.",
+      "variants": "normal, urgente",
+      "priority": "P1",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-013",
+      "title": "Ícone de cliente",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representa perfil, humor e histórico de cliente.",
+      "variants": "normal, satisfeito, irritado",
+      "priority": "P0",
+      "format": "UI icon"
+    },
+    {
+      "id": "UI-014",
+      "title": "Ícones de categorias de jogo",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Ações, corrida, esporte, aventura, puzzle e luta fictícios.",
+      "variants": "6–10 categorias",
+      "priority": "P0",
+      "format": "UI atlas"
+    },
+    {
+      "id": "UI-015",
+      "title": "Ícones de consoles",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representação dos consoles fictícios na interface.",
+      "variants": "todas as gerações",
+      "priority": "P0",
+      "format": "UI atlas"
+    },
+    {
+      "id": "UI-016",
+      "title": "Ícones de acessórios",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Representação de cabos, controles, memória e periféricos.",
+      "variants": "12–20 ícones",
+      "priority": "P1",
+      "format": "UI atlas"
+    },
+    {
+      "id": "UI-017",
+      "title": "Painel de caixa",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Interface para vendas e pagamentos.",
+      "variants": "compacto, expandido",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-018",
+      "title": "Painel de locação",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Interface de alugar, reservar e devolver jogos.",
+      "variants": "normal, atraso",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-019",
+      "title": "Painel de cliente",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Ficha de cliente, preferências e histórico.",
+      "variants": "resumo, completo",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-020",
+      "title": "Painel de inventário",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Lista de produtos, quantidades e condições.",
+      "variants": "lista, grade",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-021",
+      "title": "Painel de pedidos",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Interface de compra de fornecedores.",
+      "variants": "catálogo, carrinho, entrega",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-022",
+      "title": "Painel de finanças",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Resumo de receita, despesas, lucro e caixa.",
+      "variants": "diário, semanal",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-023",
+      "title": "Painel de funcionários",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Contratação, escala, salário e habilidade.",
+      "variants": "lista, perfil",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-024",
+      "title": "Painel de decoração",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Seleção e posicionamento de móveis.",
+      "variants": "selecionar, girar, colocar, cancelar",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-025",
+      "title": "Painel de construção",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Compra de módulos de piso, paredes e expansão.",
+      "variants": "categorias",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-026",
+      "title": "Painel de oficina",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Fila de reparos, diagnóstico e resultado.",
+      "variants": "simples, avançado",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-027",
+      "title": "Painel de campeonato",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Inscrição, chaves, prêmios e resultados.",
+      "variants": "pré-evento, em curso, final",
+      "priority": "P2",
+      "format": "UI"
+    },
+    {
+      "id": "UI-028",
+      "title": "Painel de objetivos",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Missões, metas diárias e marcos de progressão.",
+      "variants": "ativo, concluído, falhou",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-029",
+      "title": "Painel de notificações",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Avisos de chegada, atraso, estoque e eventos.",
+      "variants": "info, alerta, sucesso",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-030",
+      "title": "Tooltip de item",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Nome, preço, condição, demanda e ações possíveis.",
+      "variants": "compacto, detalhado",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-031",
+      "title": "Barra de tempo",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Indicação de hora, expediente e dia da semana.",
+      "variants": "aberto, fechado",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-032",
+      "title": "Menu de pausa",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Continuar, opções, salvar e sair.",
+      "variants": "padrão",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-033",
+      "title": "Menu de configurações",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Áudio, vídeo, idioma, controles e acessibilidade.",
+      "variants": "abas",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-034",
+      "title": "Tela de carregamento",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Ilustração da loja com dicas de gameplay.",
+      "variants": "variações",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-035",
+      "title": "Tela de fim de dia",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Resumo de receita, custos, reputação e eventos.",
+      "variants": "resultado bom, neutro, ruim",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-036",
+      "title": "Tela de falência ou recuperação",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Apresenta consequências financeiras e opções de recuperação.",
+      "variants": "alerta, recuperação",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-037",
+      "title": "Tela de tutorial",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Explica ações básicas com imagens e etapas.",
+      "variants": "por sistema",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-038",
+      "title": "Cursor de interação",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Cursor ou marcador para selecionar objetos.",
+      "variants": "normal, válido, inválido",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "UI-039",
+      "title": "Indicador de alcance",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Mostra área em que o jogador pode interagir.",
+      "variants": "válido, bloqueado",
+      "priority": "P1",
+      "format": "UI"
+    },
+    {
+      "id": "UI-040",
+      "title": "Grade de posicionamento",
+      "category": "UI",
+      "categoryLabel": "Interface, Ícones E Hud",
+      "description": "Overlay de células durante construção.",
+      "variants": "livre, ocupado, inválido",
+      "priority": "P0",
+      "format": "UI"
+    },
+    {
+      "id": "VFX-001",
+      "title": "Sombra padrão de objeto",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Sombra suave consistente para objetos colocados no cenário.",
+      "variants": "pequena, média, grande",
+      "priority": "P0",
+      "format": "Sprite/overlay"
+    },
+    {
+      "id": "VFX-002",
+      "title": "Sombra de personagem",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Sombra de contato sob personagens.",
+      "variants": "parado, andando",
+      "priority": "P0",
+      "format": "Sprite/overlay"
+    },
+    {
+      "id": "VFX-003",
+      "title": "Brilho de objeto selecionado",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Realce de interação sem contorno pesado.",
+      "variants": "normal, foco",
+      "priority": "P0",
+      "format": "Overlay"
+    },
+    {
+      "id": "VFX-004",
+      "title": "Partículas de poeira",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Pequenas partículas durante limpeza ou reforma.",
+      "variants": "leve, intensa",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "VFX-005",
+      "title": "Efeito de limpeza",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Brilho curto ao limpar disco, balcão ou móvel.",
+      "variants": "pequeno, grande",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "VFX-006",
+      "title": "Efeito de reparo concluído",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Feedback visual para item consertado.",
+      "variants": "simples, raro",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "VFX-007",
+      "title": "Efeito de dinheiro",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Pequena animação de recebimento de pagamento.",
+      "variants": "venda, aluguel",
+      "priority": "P1",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "VFX-008",
+      "title": "Ícone flutuante de satisfação",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Indicador de reação acima do cliente.",
+      "variants": "feliz, neutro, irritado",
+      "priority": "P0",
+      "format": "UI/VFX"
+    },
+    {
+      "id": "VFX-009",
+      "title": "Ícone flutuante de pensamento",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Balão com necessidade ou produto desejado.",
+      "variants": "jogo, bebida, estação, ajuda",
+      "priority": "P1",
+      "format": "UI/VFX"
+    },
+    {
+      "id": "VFX-010",
+      "title": "Efeito de falha elétrica",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Piscar ou faísca estilizada em equipamento com defeito.",
+      "variants": "leve, forte",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "VFX-011",
+      "title": "Transição de dia/noite",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Overlay ou mudança gradual de iluminação do cenário.",
+      "variants": "manhã, tarde, noite",
+      "priority": "P1",
+      "format": "Shader/overlay"
+    },
+    {
+      "id": "VFX-012",
+      "title": "Confete de campeonato",
+      "category": "VFX",
+      "categoryLabel": "Efeitos Visuais",
+      "description": "Efeito de celebração em eventos.",
+      "variants": "curto, coletivo",
+      "priority": "P2",
+      "format": "Sprite sheet"
+    },
+    {
+      "id": "AUD-001",
+      "title": "Tema principal",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Música de identidade do jogo, nostálgica e acolhedora.",
+      "variants": "menu, versão curta",
+      "priority": "P0",
+      "format": "OGG/WAV"
+    },
+    {
+      "id": "AUD-002",
+      "title": "Música ambiente da loja",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Loop musical leve para expediente.",
+      "variants": "dia, noite",
+      "priority": "P0",
+      "format": "OGG"
+    },
+    {
+      "id": "AUD-003",
+      "title": "Música de campeonato",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Faixa mais energética para eventos.",
+      "variants": "pré-evento, final",
+      "priority": "P2",
+      "format": "OGG"
+    },
+    {
+      "id": "AUD-004",
+      "title": "Ambiência de rua",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Som discreto de bairro, trânsito distante e pássaros.",
+      "variants": "dia, noite",
+      "priority": "P1",
+      "format": "OGG loop"
+    },
+    {
+      "id": "AUD-005",
+      "title": "Ambiência de loja",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Murmúrio de clientes, ventilador e aparelhos.",
+      "variants": "baixa, cheia",
+      "priority": "P0",
+      "format": "OGG loop"
+    },
+    {
+      "id": "AUD-006",
+      "title": "Som de porta",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Campainha ou rangido ao abrir a entrada.",
+      "variants": "abrir, fechar",
+      "priority": "P0",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-007",
+      "title": "Passos do jogador",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Passos estilizados sobre diferentes pisos.",
+      "variants": "cerâmica, concreto, madeira",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-008",
+      "title": "Som de caixa registradora",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Feedback de pagamento e abertura de caixa.",
+      "variants": "abrir, fechar, cobrar",
+      "priority": "P0",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-009",
+      "title": "Som de dinheiro",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Efeito curto de venda ou pagamento.",
+      "variants": "moedas, notas",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-010",
+      "title": "Som de seleção de UI",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Feedback de foco e confirmação.",
+      "variants": "hover, confirmar, cancelar",
+      "priority": "P0",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-011",
+      "title": "Som de alerta",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Notificação de atraso, estoque baixo ou evento.",
+      "variants": "leve, urgente",
+      "priority": "P0",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-012",
+      "title": "Som de CRT ligado",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Ruído curto de ativação de TV de tubo.",
+      "variants": "ligar, desligar",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-013",
+      "title": "Som de computador",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Inicialização e operação de PC antigo.",
+      "variants": "ligar, erro, desligar",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-014",
+      "title": "Som de jogo arcade",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Bipes genéricos originais para máquinas da loja.",
+      "variants": "idle, partida",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-015",
+      "title": "Som de controle",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Cliques de botões e direcional.",
+      "variants": "leve, intenso",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-016",
+      "title": "Som de disco",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Ejeção e inserção de mídia.",
+      "variants": "CD, cartucho",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-017",
+      "title": "Som de limpeza",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Pano ou escova limpando superfície.",
+      "variants": "curto, longo",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-018",
+      "title": "Som de ferramenta",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Cliques, parafusos e pequenos reparos.",
+      "variants": "abrir, montar, testar",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-019",
+      "title": "Som de sucesso",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Feedback positivo para meta ou upgrade.",
+      "variants": "curto, importante",
+      "priority": "P0",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-020",
+      "title": "Som de falha",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Feedback para reparo malsucedido ou objetivo perdido.",
+      "variants": "leve, forte",
+      "priority": "P1",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-021",
+      "title": "Vozes não verbais de clientes",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Pequenos murmúrios sem diálogo inteligível.",
+      "variants": "feliz, neutro, frustrado",
+      "priority": "P2",
+      "format": "WAV"
+    },
+    {
+      "id": "AUD-022",
+      "title": "Som de chuva",
+      "category": "AUD",
+      "categoryLabel": "Áudio E Música",
+      "description": "Ambiência climática opcional para o exterior.",
+      "variants": "leve, forte",
+      "priority": "P2",
+      "format": "OGG loop"
+    },
+    {
+      "id": "DAT-001",
+      "title": "Catálogo de jogos fictícios",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Dados de títulos, gênero, popularidade, preço, raridade e condição.",
+      "variants": "50 títulos no MVP; expansão posterior",
+      "priority": "P0",
+      "format": "JSON/CSV"
+    },
+    {
+      "id": "DAT-002",
+      "title": "Catálogo de consoles fictícios",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Dados de gerações, custo, confiabilidade e compatibilidade.",
+      "variants": "3 gerações no MVP",
+      "priority": "P0",
+      "format": "JSON/CSV"
+    },
+    {
+      "id": "DAT-003",
+      "title": "Catálogo de acessórios",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Dados de cabos, controles, periféricos e preços.",
+      "variants": "20+ itens",
+      "priority": "P0",
+      "format": "JSON/CSV"
+    },
+    {
+      "id": "DAT-004",
+      "title": "Catálogo de bebidas e snacks",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Dados de custo, preço de venda e demanda.",
+      "variants": "8–12 itens",
+      "priority": "P1",
+      "format": "JSON/CSV"
+    },
+    {
+      "id": "DAT-005",
+      "title": "Perfis de clientes",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Preferências, orçamento, paciência, hábitos e chance de retorno.",
+      "variants": "10 perfis-base",
+      "priority": "P0",
+      "format": "JSON"
+    },
+    {
+      "id": "DAT-006",
+      "title": "Tabela de preços iniciais",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Preços de compra, aluguel, venda e reparo.",
+      "variants": "por categoria",
+      "priority": "P0",
+      "format": "JSON/CSV"
+    },
+    {
+      "id": "DAT-007",
+      "title": "Tabela de fornecedores",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Catálogo, prazo, preço e confiabilidade de cada fornecedor.",
+      "variants": "3 fornecedores no MVP",
+      "priority": "P1",
+      "format": "JSON"
+    },
+    {
+      "id": "DAT-008",
+      "title": "Tabela de reparos",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Defeitos, ferramentas necessárias, custo e probabilidade de sucesso.",
+      "variants": "por classe de dispositivo",
+      "priority": "P1",
+      "format": "JSON"
+    },
+    {
+      "id": "DAT-009",
+      "title": "Eventos aleatórios",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Ocorrências de loja, bairro, estoque e clientes.",
+      "variants": "20 eventos iniciais",
+      "priority": "P1",
+      "format": "JSON"
+    },
+    {
+      "id": "DAT-010",
+      "title": "Metas e conquistas",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Objetivos de progressão e recompensas.",
+      "variants": "15–25 metas",
+      "priority": "P0",
+      "format": "JSON"
+    },
+    {
+      "id": "DAT-011",
+      "title": "Textos de tutorial",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Passo a passo das primeiras ações do jogador.",
+      "variants": "tutorial inicial e dicas contextuais",
+      "priority": "P0",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-012",
+      "title": "Textos de notificações",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Mensagens de alerta, sucesso, eventos e necessidades.",
+      "variants": "por sistema",
+      "priority": "P0",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-013",
+      "title": "Textos de diálogos",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Fal falas curtas para clientes e funcionários.",
+      "variants": "linhas modulares por perfil",
+      "priority": "P1",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-014",
+      "title": "Nomes de jogos e capas",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Banco de títulos e briefings de capas originais.",
+      "variants": "por gênero e geração",
+      "priority": "P0",
+      "format": "JSON + sprites"
+    },
+    {
+      "id": "DAT-015",
+      "title": "Localização pt-BR",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Textos, moeda, datas, horários e formatos brasileiros.",
+      "variants": "idioma inicial",
+      "priority": "P0",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-016",
+      "title": "Localização en-US",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Tradução de interface e conteúdo para mercado internacional.",
+      "variants": "primeira tradução",
+      "priority": "P1",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-017",
+      "title": "Tabela de balanceamento",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Parâmetros de economia, demanda, desgaste e progressão.",
+      "variants": "MVP e curvas de progressão",
+      "priority": "P0",
+      "format": "CSV/JSON"
+    },
+    {
+      "id": "DAT-018",
+      "title": "Tabela de compatibilidade",
+      "category": "DAT",
+      "categoryLabel": "Dados, Texto E Conteúdo De Jogo",
+      "description": "Compatibilidade entre jogos, consoles e acessórios.",
+      "variants": "regras por geração",
+      "priority": "P1",
+      "format": "JSON"
+    }
+  ]
+}
