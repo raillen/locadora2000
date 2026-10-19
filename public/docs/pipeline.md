@@ -51,7 +51,9 @@ git push origin main
 
 O último comando pressupõe que você esteja na branch `main` correta e tenha revisado suas mudanças; não use para sobrescrever outra branch. O workflow de GitHub Pages valida e compila o portal em cada push na `main`. Em outras branches, CI valida e compila sem publicar. Os arquivos só aparecem no site público após o deploy terminar com sucesso.
 
-Ative **Settings → Pages → Build and deployment → Source: GitHub Actions** no repositório. O endereço padrão esperado é `https://raillen.github.io/locadora2000/`. Um caminho em `raillen.com` depende da configuração do domínio existente; este repositório não muda o domínio da biblioteca anterior e não contém CNAME.
+O Pages está habilitado com publicação por GitHub Actions. O deploy confirmado informou o endereço **https://raillen.com/locadora2000/**, que usa o domínio existente da conta. Este repositório não muda o domínio da biblioteca anterior e não contém CNAME.
+
+A tabela está em `https://raillen.com/locadora2000/#/table`; a galeria está em `https://raillen.com/locadora2000/#/sheets`. Após registrar novos arquivos e enviar as mudanças à `main`, acompanhe o workflow até seu sucesso antes de afirmar que a nova versão foi publicada. Em uma restauração ou novo repositório, configure **Settings → Pages → Build and deployment → Source: GitHub Actions** quando necessário.
 
 ## Direção técnica
 

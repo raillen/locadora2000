@@ -59,7 +59,13 @@ Consulte [o pipeline completo](public/docs/pipeline.md). Novos assets devem segu
 
 O workflow [Pages](.github/workflows/pages.yml) executa validação, testes e build em pushes e PRs. Só publica em pushes na `main` ou em execução manual nessa branch. Ative **Settings → Pages → Source: GitHub Actions** no GitHub.
 
-Endereço padrão esperado: `https://raillen.github.io/locadora2000/`. Esse endereço é uma previsão, não uma confirmação de publicação. O domínio `raillen.com` não foi reconfigurado. A biblioteca existente `game-assets-lib` permanece independente, conforme solicitado.
+Portal publicado pelo GitHub Pages: **https://raillen.com/locadora2000/**. O deploy confirmado usa o domínio existente da conta; não foi necessário mudar a configuração do domínio. A biblioteca `game-assets-lib` permanece independente, conforme solicitado.
+
+- [GDD](https://raillen.com/locadora2000/#/gdd)
+- [Tabela de produção](https://raillen.com/locadora2000/#/table)
+- [Galeria de assets](https://raillen.com/locadora2000/#/sheets)
+
+O sucesso do deploy é conferido no GitHub Actions. A disponibilidade HTTP deve ser verificada separadamente quando a política de rede do ambiente permitir acesso ao domínio.
 
 Arquivos de produção entram no Git junto ao manifesto e são publicados com o site no deploy seguinte. Não há backend de upload nem escrita pública.
 
